@@ -1,0 +1,49 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+*.log
+
+# Environment settings
+.vscode/
+.idea/
+*.env
+
+# Dependency directories
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# Coverage reports
+.coverage
+*.coveragerc
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Test directories
+tests/
+
+# Credentials and API keys (ensure you don’t commit sensitive info)
+*.key
+*.pem
+*.p12
+*.json
+
+# Other
+*.DS_Store
+Thumbs.db
+
+# Optional: Add any specific files related to your project or local settings
